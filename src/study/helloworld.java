@@ -12,5 +12,8 @@ public class helloworld {
         System.out.println("please enter a number");
         int b = sc.nextInt();
         System.out.println("entered number is " + b);
+        System.out.println("please enter a boolean - true or false");
+        boolean c = sc.nextBoolean();
+        System.out.println("entered boolean is " + c);
     }
 }

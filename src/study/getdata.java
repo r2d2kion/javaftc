@@ -12,6 +12,7 @@ public class getdata {
         int a = sc.nextInt();
         System.out.println(a);
         System.out.println("---");
+        System.out.println("ur mom");
 
 
     }

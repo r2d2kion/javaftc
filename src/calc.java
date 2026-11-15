@@ -1,21 +1,24 @@
 import java.util.Scanner;
 
 public class calc {
-    public static void main(String[] args) {
-        System.out.println("Addition");
-        System.out.println("enter number 1");
-        Scanner sc = new Scanner(System.in);
-        int a= sc.nextInt();
-        System.out.println("a = "+a);
-        int b= sc.nextInt();
-        System.out.println("b =  "+b);
-        int c = a+b;
-        System.out.println("result of a+b = "+c);
-        c = a-b;
-        System.out.println("result of a-b = "+c);
-        c = a*b;
-        System.out.println("result of a*b = "+c);
-        c = a/b;
-        System.out.println("result of a/b = "+c);
+    public static void main(String[] args){
+        System.out.println("enter the el primero numero tu negro");
+        Scanner abcd = new Scanner(System.in);
+        double a = abcd.nextDouble();
+        System.out.println("enter the el second numero tu negro");
+        double b = abcd.nextDouble();
+        System.out.println("↓ the sum/product/quotient of you two numbers is ");
+        System.out.println(a+b + " this is add");
+        System.out.println(a*b + " this is multiplication");
+        System.out.println(a/b + " this is division");
+        System.out.println(a-b + " this is substraction");
+
+
+
+
+
+
+
     }
+
 }

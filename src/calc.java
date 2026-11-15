@@ -4,7 +4,7 @@ public class calc {
     public static void main(String[] args) {
         System.out.println("Addition");
         System.out.println("enter number 1");
-        Scanner sc =new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a= sc.nextInt();
         System.out.println("a = "+a);
         int b= sc.nextInt();
